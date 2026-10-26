@@ -8,6 +8,7 @@
 </p>
 
 <p align="center">
+  <a href="https://connor-oshea-outlands.thatrobotguy.chatgpt.site">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/connor-o-shea-281173254/">LinkedIn</a> ·
   <a href="https://www.youtube.com/@CopingWithConnor">YouTube</a> ·
   <a href="https://www.linkedin.com/in/connor-o-shea-281173254/details/featured/">Case studies</a> ·
