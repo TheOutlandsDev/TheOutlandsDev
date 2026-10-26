@@ -7,6 +7,13 @@
   <a href="https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/PROJECT-MAP.md">Project map</a>
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/connor-o-shea-281173254/">LinkedIn</a> ·
+  <a href="https://www.youtube.com/@CopingWithConnor">YouTube</a> ·
+  <a href="https://www.linkedin.com/in/connor-o-shea-281173254/details/featured/">Case studies</a> ·
+  <a href="assets/SHOWCASE.md">Interface demos</a>
+</p>
+
 # Connor O'Shea
 
 Full-stack developer and U.S. Army veteran building **OUTLANDS Dev Lab**: local applications, practical developer tools, game systems and self-hosted infrastructure.
