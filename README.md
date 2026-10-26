@@ -28,6 +28,7 @@ I work with **Python, FastAPI, SQL, React/TypeScript, Linux and Docker**, with p
 | **[Public Tools](https://github.com/TheOutlandsDev/outlands-public-tools)** | Local apps, website and portfolio builders, job tracking, source audits and file utilities. | [Choose an application](https://github.com/TheOutlandsDev/outlands-public-tools#applications-in-this-collection) |
 | **[Game Tools](https://github.com/TheOutlandsDev/outlands-game-tools)** | SPT mod source, diagnostics, configuration inspectors and save utilities. | [Try a game-free example](https://github.com/TheOutlandsDev/outlands-game-tools#try-a-tool-without-a-game-installation) |
 | **[Code Atlas](https://github.com/TheOutlandsDev/code-atlas)** | A local visual project navigator and read-only source browser for VS Code. | [Setup guide](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/setup-r2.md) |
+| **Raid Control** | Private SPT/Fika operations dashboard. Idle status, refresh and navigation verified; active gameplay remains untested. | [Read the case study](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#raid-control) |
 
 ## Games & modding
 
