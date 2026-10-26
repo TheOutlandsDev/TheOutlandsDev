@@ -27,9 +27,11 @@ I build practical applications for reporting, planning, diagnostics and reliable
 
 | Application | Problem and design | Try it or inspect the evidence |
 | --- | --- | --- |
+| **[Workfloor](https://github.com/TheOutlandsDev/workfloor)** | Original synthetic manufacturing and SQL workbench: delayed orders, inspectable queries, a caught join error and saved SQLite reports. | [Download v0.1.0](https://github.com/TheOutlandsDev/workfloor/releases/tag/v0.1.0) · [Case study](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#workfloor) |
 | **[Local Site Builder](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder)** | Maintain a small website locally. SQLite stores separate drafts and published content; backups are verified before restoring into a new directory. | [Quick start and fictional workflow](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder#start-here) · [Recorded Windows validation and limits](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/tools/local-site-builder/docs/VALIDATION.md) |
 | **[Code Atlas](https://github.com/TheOutlandsDev/code-atlas)** | Navigate selected project folders with a visual map and read-only source browsing. Python scanning and a JavaScript VS Code extension keep projects in their existing locations. | [Fictional browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/code-atlas/) · [Linux preview setup](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/setup-r2.md) |
-| **[Resource Monitor](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/resource-monitor)** | Make resource activity readable through a local Python API and browser dashboard. The browser adaptation uses fictional samples. | [Fictional browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/resource-monitor/) · [Local setup and scope](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/resource-monitor#try-it-without-reading-machine-metrics) |
+
+Also explore the [Resource Monitor fictional browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/resource-monitor/) and the full [Public Tools collection](https://github.com/TheOutlandsDev/outlands-public-tools).
 
 ### Local Site Builder: my contribution
 
@@ -39,7 +41,7 @@ One consequential decision was keeping draft and published content separate so a
 
 ### Reading the evidence
 
-These are personal projects with public source. Local Site Builder's Windows tests and draft-to-publish walkthrough are previously recorded in its documentation. Resource Monitor has a checked Windows fictional-demo first run. Code Atlas's public browser demo demonstrates its interface; the fresh Linux/VS Code acceptance test in this portfolio review remains pending. Browser demos do not establish live sampling, source scanning or native extension behavior.
+These are personal projects with public source. [Workfloor](https://github.com/TheOutlandsDev/workfloor/blob/main/docs/VALIDATION.md) uses invented manufacturing data; its recorded Windows check passed 21 tests, the browser report/save/export workflow, and snapshot reopening after restart. Linux/macOS execution remains unqualified. Local Site Builder's Windows tests and draft-to-publish walkthrough are previously recorded in its documentation. Resource Monitor has a checked Windows fictional-demo first run. Code Atlas's public browser demo demonstrates its interface; the fresh Linux/VS Code acceptance test in this portfolio review remains pending. Browser demos do not establish live sampling, source scanning or native extension behavior.
 
 The [Public Tools collection](https://github.com/TheOutlandsDev/outlands-public-tools) contains the application catalog. [Raid Control](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#raid-control) is a separate private-host dashboard case study with a sanitized idle-state capture and explicit validation limits.
 
