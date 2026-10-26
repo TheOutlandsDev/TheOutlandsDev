@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+<title id="title">OUTLANDS Dev Lab</title>
+<desc id="desc">Tools, games and systems. An original red digital wall on charcoal, with a clear OUTLANDS wordmark.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#230c16"/></linearGradient><linearGradient id="red" x2="0" y2="1"><stop stop-color="#ff5268"/><stop offset="1" stop-color="#8e1733"/></linearGradient><pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#ff5268" stroke-opacity=".07"/></pattern></defs>
+<rect width="1600" height="420" rx="18" fill="url(#bg)"/><rect width="1600" height="420" rx="18" fill="url(#grid)"/>
+<g fill="url(#red)" opacity=".55"><path d="M1080 336V205h40v-58h26v189zM1166 336V117h48V73h28v263zM1262 336V74h54V28h34v308zM1370 336V25h65v311zM1456 336V0h61v336zM1538 336V0h62v336z"/></g>
+<g fill="none" stroke="#ff5268" stroke-opacity=".7"><path d="M1048 336h552M1146 147v189M1242 73v263M1350 28v308M1435 25v311M1517 0v336"/></g>
+<path d="M72 66h46" stroke="#ff5268" stroke-width="5"/>
+<text x="136" y="73" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="600" letter-spacing="5" fill="#d3d8e0">INDEPENDENT DEVELOPMENT</text>
+<text x="68" y="202" font-family="Segoe UI,Arial,sans-serif" font-size="104" font-weight="800" letter-spacing="12" fill="#f5f7fa">OUTLANDS</text>
+<text x="74" y="253" font-family="Segoe UI,Arial,sans-serif" font-size="25" letter-spacing="10" fill="#ff7185">DEV LAB</text>
+<text x="74" y="345" font-family="Segoe UI,Arial,sans-serif" font-size="21" letter-spacing="4" fill="#b8c2cf">TOOLS / GAMES / SYSTEMS</text>
+<path d="M74 380h1452" stroke="#ff5268" stroke-opacity=".25"/>
+</svg>
