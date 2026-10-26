@@ -17,18 +17,31 @@
 
 # Connor O'Shea
 
-Full-stack developer and U.S. Army veteran building **OUTLANDS Dev Lab**: local applications, practical developer tools, game systems and self-hosted infrastructure.
+I'm Connor O'Shea, a **full-stack developer and U.S. Army veteran with hands-on medical-device manufacturing experience**. I'm transitioning into a dedicated software development role.
 
-I work with **Python, FastAPI, SQL, React/TypeScript, Linux and Docker**, with projects spanning AI/RAG, diagnostics, automation and observability. I care about useful interfaces, clear setup instructions and evidence you can inspect.
+I build practical applications for reporting, planning, diagnostics and reliable data workflows across Windows and Linux. My manufacturing background keeps me focused on clear workflows, accurate results, preserving records and making tools usable by the next person.
+
+**OUTLANDS Dev Lab** is the public home for my personal applications, developer utilities and integration projects.
 
 ## Start here
 
-| Project | What you can explore | Where to begin |
+| Application | Problem and design | Try it or inspect the evidence |
 | --- | --- | --- |
-| **[Public Tools](https://github.com/TheOutlandsDev/outlands-public-tools)** | Local apps, website and portfolio builders, job tracking, source audits and file utilities. | [Choose an application](https://github.com/TheOutlandsDev/outlands-public-tools#applications-in-this-collection) |
-| **[Game Tools](https://github.com/TheOutlandsDev/outlands-game-tools)** | SPT mod source, diagnostics, configuration inspectors and save utilities. | [Try a game-free example](https://github.com/TheOutlandsDev/outlands-game-tools#try-a-tool-without-a-game-installation) |
-| **[Code Atlas](https://github.com/TheOutlandsDev/code-atlas)** | A local visual project navigator and read-only source browser for VS Code. | [Setup guide](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/setup-r2.md) |
-| **Raid Control** | Private SPT/Fika operations dashboard. Idle status, refresh and navigation verified; active gameplay remains untested. | [Read the case study](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#raid-control) |
+| **[Local Site Builder](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder)** | Maintain a small website locally. SQLite stores separate drafts and published content; backups are verified before restoring into a new directory. | [Quick start and fictional workflow](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder#start-here) · [Recorded Windows validation and limits](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/tools/local-site-builder/docs/VALIDATION.md) |
+| **[Code Atlas](https://github.com/TheOutlandsDev/code-atlas)** | Navigate selected project folders with a visual map and read-only source browsing. Python scanning and a JavaScript VS Code extension keep projects in their existing locations. | [Fictional browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/code-atlas/) · [Linux preview setup](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/setup-r2.md) |
+| **[Resource Monitor](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/resource-monitor)** | Make resource activity readable through a local Python API and browser dashboard. The browser adaptation uses fictional samples. | [Fictional browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/resource-monitor/) · [Local setup and scope](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/resource-monitor#try-it-without-reading-machine-metrics) |
+
+### Local Site Builder: my contribution
+
+I designed the application: its requirements, interface and workflows, SQLite storage, draft/publish behavior, and backup/restore approach. I also handled integration and debugging, with AI assistance during implementation.
+
+One consequential decision was keeping draft and published content separate so an unfinished edit stays private. Recovery restores verified backup contents into a fresh directory and refuses an existing destination. The tradeoff is that database changes and generated HTML are not one atomic transaction; a disk failure can leave publication incomplete and require a retry. The [validation notes](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/tools/local-site-builder/docs/VALIDATION.md) record the Windows checks and remaining limits.
+
+### Reading the evidence
+
+These are personal projects with public source. Local Site Builder's Windows tests and draft-to-publish walkthrough are previously recorded in its documentation. Resource Monitor has a checked Windows fictional-demo first run. Code Atlas's public browser demo demonstrates its interface; the fresh Linux/VS Code acceptance test in this portfolio review remains pending. Browser demos do not establish live sampling, source scanning or native extension behavior.
+
+The [Public Tools collection](https://github.com/TheOutlandsDev/outlands-public-tools) contains the application catalog. [Raid Control](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#raid-control) is a separate private-host dashboard case study with a sanitized idle-state capture and explicit validation limits.
 
 ## Games & modding
 
