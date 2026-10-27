@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://connor-oshea-outlands.thatrobotguy.chatgpt.site">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/connor-o-shea-281173254/">LinkedIn</a> ·
-  <a href="https://www.youtube.com/@CopingWithConnor">YouTube</a> ·
+  <a href="https://www.youtube.com/@TheOutlandsDev">YouTube</a> ·
   <a href="https://www.linkedin.com/in/connor-o-shea-281173254/details/featured/">Case studies</a> ·
   <a href="assets/SHOWCASE.md">Interface demos</a>
 </p>
@@ -69,3 +69,4 @@ The [Public Tools collection](https://github.com/TheOutlandsDev/outlands-public-
 Open an issue in the relevant project. Setup questions, reproducible bugs, documentation fixes and ideas are welcome—you do not need to write code to help. Include your version, what you tried and what you expected, using a minimal example.
 
 <sub>Original work is developed with AI assistance. Each repository documents its own license, upstream credits and validation scope.</sub>
+
