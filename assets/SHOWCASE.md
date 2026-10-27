@@ -23,3 +23,7 @@ These are real browser captures made on 2026-10-26 from the original interfaces 
 - To try the complete extension, follow [the tested revision 2 setup guide](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/setup-r2.md).
 
 The original repositories retain their own licenses, upstream notices and validation scope.
+
+## Code Atlas native Linux evidence
+
+The published Code Atlas 0.1.0 VSIX now has [actual Linux VS Code captures and a reproducible native check](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/native-acceptance.md). The recorded run passed 38 first-launch, 39 restart and 12 Restricted Mode control assertions with generated Python, Rust and TypeScript projects. The frozen reports record file-preservation hashes, native read-only boundaries and persisted settings/catalog identity. These native CI/API captures are separate from the fictional browser image above. Manual installed-desktop search, filter and keyboard acceptance remain pending.
