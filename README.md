@@ -26,7 +26,7 @@ I build practical applications for reporting, planning, diagnostics and reliable
 <!-- START-HERE:BEGIN -->
 ## Choose a tool for your task
 
-Start with one focused download and its fictional exercise. Workfloor, SQL Report Workbench and Developer Workspace Windows packages include Python; Local Site Builder includes Node and its dependencies. Other source downloads need the runtime documented in their guide.
+Start with one focused download and its fictional exercise. Workfloor, SQL Report Workbench, Developer Workspace and Resource Monitor Windows packages include Python; Local Site Builder includes Node and its dependencies. Other source downloads need the runtime documented in their guide.
 
 | Your task | Start with | Follow the exercise |
 | --- | --- | --- |
