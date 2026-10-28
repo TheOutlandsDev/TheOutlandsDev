@@ -25,9 +25,9 @@ I build practical applications for reporting, planning, diagnostics and reliable
 
 ## Start here
 
-**[Browse every tool and the methodology](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#tools)** · [Download the complete toolkit or a tool family](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/toolkit-v0.2.0) · [Worked methodology examples](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/methodology/worked-examples)
+**[Browse every tool and the methodology](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#tools)** · [Download the complete toolkit or a tool family](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/toolkit-v0.2.1) · [Worked methodology examples](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/methodology/worked-examples)
 
-Toolkit 0.2.0 contains a fixed public snapshot of 62 tools and six application systems, with source, fictional examples, requirements, notices and exact package manifests. The portfolio directory also links the separate public projects.
+Toolkit 0.2.1 contains a fixed public snapshot of 62 tools and seven application systems, with source, fictional examples, requirements, notices and exact package manifests. The portfolio directory also links the separate public projects. Each tool family includes a [five-minute fictional workshop](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/workshops); the [shared catalog](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/catalog/generated/INDEX.md) links requirements, examples, validation and package state.
 
 | Application | Problem and design | Try it or inspect the evidence |
 | --- | --- | --- |
