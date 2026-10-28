@@ -26,7 +26,7 @@ I build practical applications for reporting, planning, diagnostics and reliable
 <!-- START-HERE:BEGIN -->
 ## Choose a tool for your task
 
-Start with one focused download and its fictional exercise. Workfloor for Windows includes its runtime. Other source downloads need the runtime documented in their guide.
+Start with one focused download and its fictional exercise. Workfloor and SQL Report Workbench Windows packages include Python. Other source downloads need the runtime documented in their guide.
 
 | Your task | Start with | Follow the exercise |
 | --- | --- | --- |
@@ -48,6 +48,8 @@ Toolkit 0.3.0 contains a fixed public snapshot of 62 tools and nine application 
 | **[Workfloor](https://github.com/TheOutlandsDev/workfloor)** | Original synthetic manufacturing and SQL workbench: CSV preview, transactional imports, delayed reports and preserved SQLite snapshots. | [Explore sample reports](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/workfloor/) · [Windows portable: Python included](https://github.com/TheOutlandsDev/workfloor/releases/tag/windows-v0.4.1-1) · [Source ZIP](https://github.com/TheOutlandsDev/workfloor/releases/tag/v0.4.1) |
 | **[Local Site Builder](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder)** | Maintain a small website locally. SQLite stores separate drafts and published content; backups are verified before restoring into a new directory. | [Download v1.0.2](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/local-site-builder-v1.0.2) · [60-second tour](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#local-site-builder-walkthrough) · [Setup](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder#start-here) |
 | **[Code Atlas](https://github.com/TheOutlandsDev/code-atlas)** | Navigate selected project folders with a visual map and read-only source browsing. Python scanning and a JavaScript VS Code extension keep projects in their existing locations. | [Fictional browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/code-atlas/) · [Linux preview setup](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/setup-r2.md) · [Native results](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/native-acceptance.md) |
+
+For a deeper SQL example, [download SQL Report Workbench for Windows with Python included](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/sql-report-workbench-windows-v0.1.1-1). Extract and double-click SQL Report Demo.cmd to reproduce 8/11 totals and 5/11 with filtering. [Setup, private storage and recovery limits](https://github.com/TheOutlandsDev/outlands-public-tools/blob/sql-report-workbench-windows-v0.1.1-1/downloads/windows/sql-report-workbench/START-HERE.txt).
 
 Also explore the [Resource Monitor fictional browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/resource-monitor/) and the full [Public Tools collection](https://github.com/TheOutlandsDev/outlands-public-tools).
 
