@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/outlands-dev-lab.svg" alt="OUTLANDS Dev Lab — tools, games and systems" width="100%"></p>
 
 <p align="center">
-  <a href="#start-here">Start here</a> ·
+  <a href="#choose-a-tool-for-your-task">Start here</a> ·
   <a href="#games--modding">Games &amp; modding</a> ·
   <a href="#infrastructure--research">Infrastructure &amp; research</a> ·
   <a href="https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/PROJECT-MAP.md">Project map</a>
@@ -23,16 +23,30 @@ I build practical applications for reporting, planning, diagnostics and reliable
 
 **OUTLANDS Dev Lab** is the public home for my personal applications, developer utilities and integration projects.
 
-## Start here
+<!-- START-HERE:BEGIN -->
+## Choose a tool for your task
 
-**[Browse every tool and the methodology](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#tools)** · [Download the complete toolkit or a tool family](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/toolkit-v0.2.1) · [Worked methodology examples](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/methodology/worked-examples)
+Start with one focused download and its fictional exercise. These ZIPs contain source; install the documented runtime separately.
 
-Toolkit 0.2.1 contains a fixed public snapshot of 62 tools and seven application systems, with source, fictional examples, requirements, notices and exact package manifests. The portfolio directory also links the separate public projects. Each tool family includes a [five-minute fictional workshop](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/workshops); the [shared catalog](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/catalog/generated/INDEX.md) links requirements, examples, validation and package state.
+| Your task | Start with | Follow the exercise |
+| --- | --- | --- |
+| Manufacturing and reporting | [Workfloor](https://github.com/TheOutlandsDev/workfloor/releases/download/v0.4.1/workfloor-0.4.1.zip) | [Requirements, expected result and limits](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/START-HERE.md#manufacturing) |
+| Build a local website | [Local Site Builder](https://github.com/TheOutlandsDev/outlands-public-tools/releases/download/local-site-builder-v1.0.2/local-site-builder-1.0.2.zip) | [Requirements, expected result and limits](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/START-HERE.md#local-website) |
+| Inspect and validate code | [Developer Workspace](https://github.com/TheOutlandsDev/outlands-public-tools/releases/download/developer-workspace-v0.1.1/developer-workspace-0.1.1.zip) | [Requirements, expected result and limits](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/START-HERE.md#source-review) |
+
+[Read the complete starting guide](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/START-HERE.md) · [Portfolio guide](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#start-here)
+<!-- START-HERE:END -->
+
+## Selected applications
+
+**[Browse every tool and the methodology](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#tools)** · [Download the complete toolkit or a tool family](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/toolkit-v0.3.0) · [Worked methodology examples](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/methodology/worked-examples)
+
+Toolkit 0.3.0 contains a fixed public snapshot of 62 tools and nine application systems, with source, fictional examples, requirements, notices and exact package manifests. The portfolio directory also links the separate public projects. Each tool family includes a [five-minute fictional workshop](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/workshops); the [shared catalog](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/catalog/generated/INDEX.md) links requirements, examples, validation and package state.
 
 | Application | Problem and design | Try it or inspect the evidence |
 | --- | --- | --- |
-| **[Workfloor](https://github.com/TheOutlandsDev/workfloor)** | Original synthetic manufacturing and SQL workbench: CSV preview, transactional imports, delayed reports and preserved SQLite snapshots. | [Explore sample reports](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/workfloor/) · [Download v0.2.0](https://github.com/TheOutlandsDev/workfloor/releases/tag/v0.2.0) |
-| **[Local Site Builder](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder)** | Maintain a small website locally. SQLite stores separate drafts and published content; backups are verified before restoring into a new directory. | [Download v1.0.1](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/local-site-builder-v1.0.1) · [60-second tour](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#local-site-builder-walkthrough) · [Setup](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder#start-here) |
+| **[Workfloor](https://github.com/TheOutlandsDev/workfloor)** | Original synthetic manufacturing and SQL workbench: CSV preview, transactional imports, delayed reports and preserved SQLite snapshots. | [Explore sample reports](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/workfloor/) · [Download v0.4.1](https://github.com/TheOutlandsDev/workfloor/releases/tag/v0.4.1) |
+| **[Local Site Builder](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder)** | Maintain a small website locally. SQLite stores separate drafts and published content; backups are verified before restoring into a new directory. | [Download v1.0.2](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/local-site-builder-v1.0.2) · [60-second tour](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#local-site-builder-walkthrough) · [Setup](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder#start-here) |
 | **[Code Atlas](https://github.com/TheOutlandsDev/code-atlas)** | Navigate selected project folders with a visual map and read-only source browsing. Python scanning and a JavaScript VS Code extension keep projects in their existing locations. | [Fictional browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/code-atlas/) · [Linux preview setup](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/setup-r2.md) · [Native results](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/native-acceptance.md) |
 
 Also explore the [Resource Monitor fictional browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/resource-monitor/) and the full [Public Tools collection](https://github.com/TheOutlandsDev/outlands-public-tools).
@@ -47,8 +61,8 @@ One consequential decision was keeping draft and published content separate so a
 
 These are personal projects with public source and explicitly labeled demonstration data.
 
-- **Workfloor:** [39 backend tests, two browser tests and both CLI/launcher checks passed on Windows](https://github.com/TheOutlandsDev/workfloor/actions/runs/40429040826). The browser workflow verifies receipt downloads and the earlier saved export's byte identity after reload. Its no-install viewer displays actual frozen synthetic exports; imports run in the local app. Linux/macOS execution remains unqualified.
-- **Local Site Builder 1.0.1:** [Windows and Ubuntu CI each passed 32 integration tests plus complete browser/CLI acceptance](https://github.com/TheOutlandsDev/outlands-public-tools/actions/runs/40431910840). A fresh focused ZIP also passed the checks on Windows. The workflow verifies private drafts, explicit publish, stopped backup and reopening a checksum-verified restore into a new directory, with tampering and existing destinations refused.
+- **Workfloor v0.4.1:** [Windows/Ubuntu Python 3.12/3.13 checks](https://github.com/TheOutlandsDev/workfloor/actions/runs/40723210120) cover CLI/HTTP, upgrades and recovery. [Windows browser acceptance](https://github.com/TheOutlandsDev/workfloor/actions/runs/40723210163) checks the interface; [the current captioned tour](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#workfloor-v04-walkthrough) shows import history, a real process restart and a restored database with the same receipt. macOS remains unqualified.
+- **Local Site Builder 1.0.2:** the [focused download guide and provenance](https://github.com/TheOutlandsDev/outlands-public-tools/blob/local-site-builder-v1.0.2/tools/local-site-builder/docs/PROVENANCE.md) describe fresh-ZIP validation on Windows and Ubuntu. Checks cover private drafts, explicit local publish, stopped backup, tamper/existing-destination refusal and reopening published/private content after restore. This remains a single-user local application.
 - **Code Atlas:** the published VSIX passed 38 first-launch, 39 restart and 12 Restricted Mode control assertions in Linux VS Code 1.143.0. [Native screenshots, results and reproduction](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/native-acceptance.md) show actual scanning, read-only file boundaries and restart persistence. Manual desktop search, filter and keyboard acceptance remain pending. The browser demo uses a separate fictional catalog.
 - **Resource Monitor:** a Windows fictional-demo first run is recorded. Its browser adaptation does not establish live machine sampling.
 
