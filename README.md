@@ -25,6 +25,10 @@ I build practical applications for reporting, planning, diagnostics and reliable
 
 ## Start here
 
+**[Browse every tool and the methodology](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#tools)** · [Download the complete toolkit or a tool family](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/toolkit-v0.2.0) · [Worked methodology examples](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/methodology/worked-examples)
+
+Toolkit 0.2.0 contains a fixed public snapshot of 62 tools and six application systems, with source, fictional examples, requirements, notices and exact package manifests. The portfolio directory also links the separate public projects.
+
 | Application | Problem and design | Try it or inspect the evidence |
 | --- | --- | --- |
 | **[Workfloor](https://github.com/TheOutlandsDev/workfloor)** | Original synthetic manufacturing and SQL workbench: CSV preview, transactional imports, delayed reports and preserved SQLite snapshots. | [Explore sample reports](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/workfloor/) · [Download v0.2.0](https://github.com/TheOutlandsDev/workfloor/releases/tag/v0.2.0) |
