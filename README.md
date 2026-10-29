@@ -23,6 +23,8 @@ I build practical applications for reporting, planning, diagnostics and reliable
 
 **OUTLANDS Dev Lab** is the public home for my personal applications, developer utilities and integration projects.
 
+**Lifecycle exercises:** [Setup declarations](https://github.com/TheOutlandsDev/outlands-public-tools/blob/toolkit-v0.6.0/workshops/environment-setup.md) · [Import and document validation](https://github.com/TheOutlandsDev/outlands-public-tools/blob/toolkit-v0.6.0/workshops/README.md) · [Update planning](https://github.com/TheOutlandsDev/outlands-public-tools/blob/toolkit-v0.6.0/workshops/release-update.md). Invented inputs, observed checks and explicit limits; no real setup or target update is performed.
+
 <!-- START-HERE:BEGIN -->
 ## Choose a tool for your task
 
@@ -39,9 +41,9 @@ Start with one focused download and its fictional exercise. Windows downloads ma
 
 ## Selected applications
 
-**[Browse every tool and the methodology](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#tools)** · [Download the complete toolkit or a tool family](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/toolkit-v0.5.0) · [Worked methodology examples](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/methodology/worked-examples)
+**[Browse every tool and the methodology](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#tools)** · [Download the complete toolkit or a tool family](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/toolkit-v0.6.0) · [Worked methodology examples](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/methodology/worked-examples)
 
-Toolkit 0.5.0 contains a fixed public snapshot of 77 components: 62 tools and 15 application systems, with source, fictional examples, requirements, notices and exact package manifests. The portfolio directory also links the separate public projects. Each tool family includes a [five-minute fictional workshop](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/workshops); the [shared catalog](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/catalog/generated/INDEX.md) links requirements, examples, validation and package state.
+Toolkit 0.6.0 contains a fixed public snapshot of 79 components: 62 tools and 17 application systems, with source, fictional examples, requirements, notices and exact package manifests. The portfolio directory also links the separate public projects. Each tool family includes a [five-minute fictional workshop](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/workshops); the [shared catalog](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/catalog/generated/INDEX.md) links requirements, examples, validation and package state.
 
 | Application | Problem and design | Try it or inspect the evidence |
 | --- | --- | --- |
