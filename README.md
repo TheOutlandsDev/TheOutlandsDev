@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="#choose-a-tool-for-your-task">Start here</a> ·
+  <a href="#codex-engineering-research">Codex research</a> ·
   <a href="#games--modding">Games &amp; modding</a> ·
   <a href="#infrastructure--research">Infrastructure &amp; research</a> ·
   <a href="https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/PROJECT-MAP.md">Project map</a>
@@ -22,6 +23,16 @@ I'm Connor O'Shea, a **full-stack developer and U.S. Army veteran with hands-on 
 I build practical applications for reporting, planning, diagnostics and reliable data workflows across Windows and Linux. My manufacturing background keeps me focused on clear workflows, accurate results, preserving records and making tools usable by the next person.
 
 **OUTLANDS Dev Lab** is the public home for my personal applications, developer utilities and integration projects.
+
+## Codex engineering research
+
+I independently investigate Codex reliability and security behavior using source review and isolated, synthetic tests. My public issue work includes:
+
+- [Git-backed plugin refresh latency (#58885)](https://github.com/openai/codex/issues/58885): measured how a stalled Git source delays later local plugin refreshes.
+- [CLA workflow pagination (#58461)](https://github.com/openai/codex/issues/58461): documented contributors missed beyond the first 100 PR commits and shared tested reference-fix guidance.
+- [Plugin refresh cleanup (#55068)](https://github.com/openai/codex/issues/55068): added independent reproductions for duplicate refresh work and app-server shutdown behavior.
+
+I document what each test proves and route validated security vulnerabilities through [OpenAI's private Bugcrowd program](https://bugcrowd.com/engagements/openai).
 
 **Lifecycle exercises:** [Setup declarations](https://github.com/TheOutlandsDev/outlands-public-tools/blob/toolkit-v0.6.0/workshops/environment-setup.md) · [Import and document validation](https://github.com/TheOutlandsDev/outlands-public-tools/blob/toolkit-v0.6.0/workshops/README.md) · [Update planning](https://github.com/TheOutlandsDev/outlands-public-tools/blob/toolkit-v0.6.0/workshops/release-update.md). Invented inputs, observed checks and explicit limits; no real setup or target update is performed.
 
