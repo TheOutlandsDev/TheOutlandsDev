@@ -11,6 +11,7 @@
 <p align="center">
   <a href="https://connor-oshea-outlands.thatrobotguy.chatgpt.site">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/connor-o-shea-281173254/">LinkedIn</a> ·
+  <a href="https://bugcrowd.com/h/therobotguy">Bugcrowd</a> ·
   <a href="https://www.youtube.com/@TheOutlandsDev">YouTube</a> ·
   <a href="https://www.linkedin.com/in/connor-o-shea-281173254/details/featured/">Case studies</a> ·
   <a href="assets/SHOWCASE.md">Interface demos</a>
