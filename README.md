@@ -32,6 +32,9 @@ I independently investigate Codex reliability and security behavior using source
 - [Git-backed plugin refresh latency (#58885)](https://github.com/openai/codex/issues/58885): measured how a stalled Git source delays later local plugin refreshes.
 - [CLA workflow pagination (#58461)](https://github.com/openai/codex/issues/58461): documented contributors missed beyond the first 100 PR commits and shared tested reference-fix guidance.
 - [Plugin refresh cleanup (#55068)](https://github.com/openai/codex/issues/55068): added independent reproductions for duplicate refresh work and app-server shutdown behavior.
+- [Loaded-thread sandbox override (#59730)](https://github.com/openai/codex/issues/59730): reproduced on Codex 0.167.0 that a same-server resume ignores an override while a fresh-server resume applies it; no sandbox bypass was demonstrated.
+- [AgentPlugin hook loading (#59516)](https://github.com/openai/codex/issues/59516): reproduced missing declared hooks and tested a local candidate fix through synthetic installation, discovery, and hook execution.
+- [Marketplace removal visibility (#59689)](https://github.com/openai/codex/issues/59689): reproduced a plugin disappearing from the list while its synthetic skill remained active, and tested recovery and an install/removal race in a local candidate fix.
 
 I document what each test proves and route validated security vulnerabilities through [OpenAI's private Bugcrowd program](https://bugcrowd.com/engagements/openai).
 
