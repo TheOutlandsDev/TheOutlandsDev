@@ -29,7 +29,8 @@ I build practical applications for reporting, planning, diagnostics and reliable
 
 I independently investigate Codex reliability and security behavior using source review and isolated, synthetic tests. My public issue work includes:
 
-- [Git-backed plugin refresh latency (#58885)](https://github.com/openai/codex/issues/58885): measured how a stalled Git source delays later local plugin refreshes.
+- [Git-backed plugin refresh latency (#58885)](https://github.com/openai/codex/issues/58885): measured the delay and compared a local Linux candidate fix with unpatched current main.
+- [Loaded-thread MCP endpoint retention (#58060)](https://github.com/openai/codex/issues/58060): reproduced stale and missing `codex_tui` registrations in offline Codex 0.167.0 tests, with explicit recovery limits.
 - [CLA workflow pagination (#58461)](https://github.com/openai/codex/issues/58461): documented contributors missed beyond the first 100 PR commits and shared tested reference-fix guidance.
 - [Plugin refresh cleanup (#55068)](https://github.com/openai/codex/issues/55068): added independent reproductions for duplicate refresh work and app-server shutdown behavior.
 - [Loaded-thread sandbox override (#59730)](https://github.com/openai/codex/issues/59730): reproduced on Codex 0.167.0 that a same-server resume ignores an override while a fresh-server resume applies it; no sandbox bypass was demonstrated.
