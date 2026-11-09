@@ -19,7 +19,7 @@
 
 # Connor O'Shea
 
-I'm Connor O'Shea, a **full-stack developer and U.S. Army veteran with hands-on medical-device manufacturing experience**. I'm transitioning into a dedicated software development role.
+I'm Connor O'Shea, a **software developer and U.S. Army veteran with hands-on medical-device manufacturing experience**.
 
 I build practical applications for reporting, planning, diagnostics and reliable data workflows across Windows and Linux. My manufacturing background keeps me focused on clear workflows, accurate results, preserving records and making tools usable by the next person.
 
