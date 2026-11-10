@@ -36,6 +36,7 @@ I independently investigate Codex reliability and security behavior using source
 - [Loaded-thread sandbox override (#59730)](https://github.com/openai/codex/issues/59730): reproduced on Codex 0.167.0 that a same-server resume ignores an override while a fresh-server resume applies it; no sandbox bypass was demonstrated.
 - [AgentPlugin hook loading (#59516)](https://github.com/openai/codex/issues/59516): reproduced missing declared hooks and tested a local candidate fix through synthetic installation, discovery, and hook execution.
 - [Marketplace removal visibility (#59689)](https://github.com/openai/codex/issues/59689): reproduced a plugin disappearing from the list while its synthetic skill remained active, and tested recovery and an install/removal race in a local candidate fix.
+- **Additional CLI/MCP reliability checks:** [oversized MCP replies (#60383)](https://github.com/openai/codex/issues/60383#issuecomment-6756989945), [headless elicitation reporting (#60400)](https://github.com/openai/codex/issues/60400#issuecomment-6766198171), and [installer PATH quoting (#60494)](https://github.com/openai/codex/issues/60494#issuecomment-6757620856), each reproduced with synthetic local controls and stated limits.
 
 I document what each test proves and route validated security vulnerabilities through [OpenAI's private Bugcrowd program](https://bugcrowd.com/engagements/openai).
 
