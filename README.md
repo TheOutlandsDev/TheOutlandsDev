@@ -1,12 +1,89 @@
 <p align="center"><img src="assets/outlands-dev-lab-banner.jpg" alt="OUTLANDS Dev Lab. A netrunner stands at the foot of a red digital wall." width="100%"></p>
 
 <p align="center">
-  <a href="#choose-a-tool-for-your-task">Start here</a> ·
-  <a href="#codex-engineering-research">Codex research</a> ·
-  <a href="#games--modding">Games &amp; modding</a> ·
-  <a href="#infrastructure--research">Infrastructure &amp; research</a> ·
-  <a href="https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/PROJECT-MAP.md">Project map</a>
+  <a href="#codex-research">Codex research</a> ·
+  <a href="#outlands-projects">OUTLANDS projects</a> ·
+  <a href="#game-projects">Game projects</a> ·
+  <a href="#applications-and-tools">Applications and tools</a> ·
+  <a href="#about-and-links">About</a>
 </p>
+
+# Connor O'Shea · OUTLANDS Dev Lab
+
+I build local software for reporting, source review, and operating systems people can maintain themselves. I also publish independent Codex research, self-hosting reference systems, and game development projects.
+
+## Codex research
+
+I investigate Codex reliability through source review and isolated tests. I aim to give maintainers and other developers a clear account of what I observed, what I checked, and where the evidence stops.
+
+| Selected work | What I investigated | Public evidence |
+| --- | --- | --- |
+| **Plugin refresh latency** | Measured Git-backed plugin refresh delays and compared a local Linux candidate with upstream behavior. | [Issue #58885](https://github.com/openai/codex/issues/58885) |
+| **File search accuracy** | Checked how overlapping roots affected duplicate search results and whether valid matches were kept. | [Issue #60591](https://github.com/openai/codex/issues/60591) |
+| **Thread search** | Investigated a Unicode substring search miss and tested a local candidate correction. | [Issue #60589](https://github.com/openai/codex/issues/60589) |
+| **Terminal math rendering** | Checked underbrace annotations in a local renderer and proposed a bounded terminal layout. | [Issue #61792](https://github.com/openai/codex/issues/61792#issuecomment-6936878768) |
+
+[Read the full Codex research record and dated maintainer notes](docs/CODEX-RESEARCH.md).
+
+## OUTLANDS projects
+
+These projects cover self-hosting, local AI development, mobile development, and protocol engineering. Each project links to its setup or research evidence.
+
+| Project | What it does | Start here |
+| --- | --- | --- |
+| **Private Workspace Blueprint** | Shows how to assemble a private app hub with Homepage, Docker, and Tailscale. Runnable examples cover owner and reader roles, state, recovery, and OIDC with a fake provider. | [Build guide](https://github.com/TheOutlandsDev/outlands-private-workspace-blueprint) |
+| **Agent Workbench** | Provides a browser workspace for running an opted-in local coding workflow against a project copy, inspecting the diff, and downloading a patch for review. | [Invented demo and setup](https://github.com/TheOutlandsDev/outlands-agent-workbench) |
+| **Dev Phone** | Documents an Android development console that runs small programs locally and connects to an existing development PC. Includes acceptance evidence from one evaluated phone. | [Source and method](https://github.com/TheOutlandsDev/outlands-dev-phone) |
+| **OUTLANDS Protocol** | An original Rust reference implementation for studying account transitions, consensus, storage, and peer sessions. Published as research source. | [Component map and checks](https://github.com/TheOutlandsDev/outlands-protocol) |
+
+## Game projects
+
+I build game systems, modding tools, and server recovery workflows. The project guides explain the required game versions, third-party dependencies, and which workflows have been tested.
+
+### Mods and player setups
+
+| Project | What it does | Start here |
+| --- | --- | --- |
+| **OUTLANDS SPT** | Provides matching Client and SelfHost setup, update helpers, and headless diagnostics for a compatible SPT installation. | [Compatibility and setup](https://github.com/TheOutlandsDev/outlands-spt-modpack) |
+| **OUTLANDS BO2** | Adds private multiplayer setup, native bots, and progression features, with platform-specific validation. | [Project guide](https://github.com/TheOutlandsDev/outlands-bo2-mod) |
+| **GAMMA Clear Sky Warfare** | Adds campaign presets and optional addons, with a separate experimental co-op launcher and Story workshop. | [Choose a test track](https://github.com/TheOutlandsDev/gamma-clearsky-warfare) |
+| **IW4x Bot Warfare Extras** | Adds bot behaviors and presets along with a local learning-file trainer. | [Setup and commands](https://github.com/TheOutlandsDev/iw4x-bot-warfare-extras) |
+| **State of Decay 2 QOL** | Collects experimental setup recipes for first-person play, storage, recruitment, and other quality-of-life changes. | [Setup and compatibility](https://github.com/TheOutlandsDev/outlands-state-of-decay-2-qol) |
+
+### Game operations and reusable tools
+
+| Project | What it does | Start here |
+| --- | --- | --- |
+| **OUTLANDS Game Tools** | Collects diagnostics, save utilities, and original SPT modules. The fictional LTX example can be run without a game installed. | [Choose a tool](https://github.com/TheOutlandsDev/outlands-game-tools) |
+| **OUTLANDS WoW** | Preserves gameplay modules, database changes, and an operations kit for rebuilding the Living Azeroth server. Includes isolated reconstruction and recovery evidence. | [Source kit and rebuild path](https://github.com/TheOutlandsDev/outlands-wow) |
+| **Over The Top: WWI Server Manager** | Provides dedicated-server lifecycle controls, campaign checkpoints, health checks, and recovery and rollback tools. | [Manager source and guide](https://github.com/TheOutlandsDev/outlands-ott-wwi-server-manager) |
+
+## Applications and tools
+
+### Try an application
+
+| Project | What it does | Try it |
+| --- | --- | --- |
+| **Workfloor** | Reviews overdue work orders, shows the source records behind a report, and checks for inflated SQL counts. The demo uses invented manufacturing records. | [Browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/workfloor/) · [Source and setup](https://github.com/TheOutlandsDev/workfloor) |
+| **Code Atlas** | Maps selected project folders and opens source in read-only VS Code tabs. The project includes native Linux validation. | [Browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/code-atlas/) · [Source and setup](https://github.com/TheOutlandsDev/code-atlas) |
+| **Local Site Builder** | Builds a small website locally with a browser editor, separate draft and published content, and verified backup and restore. | [Maintained application](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder) · [Standalone source and history](https://github.com/TheOutlandsDev/outlands-local-site-builder) |
+| **Portfolio Builder** | Turns structured project records into a portfolio PDF, offline HTML index, and evidence package. | [Maintained application](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/portfolio-builder) · [Standalone source and history](https://github.com/TheOutlandsDev/outlands-portfolio-builder) |
+
+### Find a tool or worked example
+
+| I want to… | Where to start |
+| --- | --- |
+| Browse reusable Python tools and complete local applications | [OUTLANDS Public Tools](https://github.com/TheOutlandsDev/outlands-public-tools) · [Complete tool catalog](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/catalog/generated/INDEX.md) |
+| Validate source, compare revisions, or run a reporting exercise | [Developer Workspace and SQL Report Workbench guide](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/START-HERE.md) |
+| See a local dashboard with invented CPU, memory, and network data | [Resource Monitor browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/resource-monitor/) |
+| Prepare a bounded source export with file selection and hash evidence | [Source Export Gate](https://github.com/TheOutlandsDev/source-export-gate) |
+| Follow short, reproducible examples across categories | [Public tool workshops](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/workshops) · [Worked methods](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/methodology/worked-examples) |
+
+[See the application download references, platform checks, and case notes](docs/APPLICATION-NOTES.md).
+
+## About and links
+
+I'm Connor O'Shea, a **software developer and U.S. Army veteran with hands-on medical-device manufacturing experience**. My manufacturing background keeps me focused on clear workflows, reliable records, and making tools usable by the next person.
 
 <p align="center">
   <a href="https://connor-oshea-outlands.thatrobotguy.chatgpt.site">Portfolio</a> ·
@@ -14,124 +91,9 @@
   <a href="https://bugcrowd.com/h/therobotguy">Bugcrowd</a> ·
   <a href="https://www.youtube.com/@TheOutlandsDev">YouTube</a> ·
   <a href="https://www.linkedin.com/in/connor-o-shea-281173254/details/featured/">Case studies</a> ·
-  <a href="assets/SHOWCASE.md">Interface demos</a>
+  <a href="https://github.com/TheOutlandsDev/TheOutlandsDev/blob/main/assets/SHOWCASE.md">Interface demos</a>
 </p>
 
-# Connor O'Shea
-
-I'm Connor O'Shea, a **software developer and U.S. Army veteran with hands-on medical-device manufacturing experience**.
-
-I build practical applications for reporting, planning, diagnostics and reliable data workflows across Windows and Linux. My manufacturing background keeps me focused on clear workflows, accurate results, preserving records and making tools usable by the next person.
-
-**OUTLANDS Dev Lab** is the public home for my personal applications, developer utilities and integration projects.
-
-## Codex engineering research
-
-I independently investigate Codex reliability and security behavior using source review and isolated, synthetic tests. My public issue work includes:
-
-- [Git-backed plugin refresh latency (#58885)](https://github.com/openai/codex/issues/58885): measured the delay and compared a local Linux candidate fix with unpatched current main.
-- [Loaded-thread MCP endpoint retention (#58060)](https://github.com/openai/codex/issues/58060): reproduced stale and missing `codex_tui` registrations in offline Codex 0.167.0 tests, with explicit recovery limits.
-- [CLA workflow pagination (#58461)](https://github.com/openai/codex/issues/58461): documented contributors missed beyond the first 100 PR commits and shared tested reference-fix guidance.
-- [Plugin refresh cleanup (#55068)](https://github.com/openai/codex/issues/55068): added independent reproductions for duplicate refresh work and app-server shutdown behavior.
-- [Loaded-thread sandbox override (#59730)](https://github.com/openai/codex/issues/59730): reproduced on Codex 0.167.0 that a same-server resume ignores an override while a fresh-server resume applies it; no sandbox bypass was demonstrated.
-- [AgentPlugin hook loading (#59516)](https://github.com/openai/codex/issues/59516): reproduced missing declared hooks and tested a local candidate fix through synthetic installation, discovery, and hook execution.
-- [Marketplace removal visibility (#59689)](https://github.com/openai/codex/issues/59689): reproduced a plugin disappearing from the list while its synthetic skill remained active, and tested recovery and an install/removal race in a local candidate fix.
-- **Thread and command lifecycle:** [cold pagination (#60529)](https://github.com/openai/codex/issues/60529#issuecomment-6779929404): tested tied-timestamp and partial-index cases; [missing app-server command events (#60470)](https://github.com/openai/codex/issues/60470#issuecomment-6784343061): reproduced model-visible output without command notifications on official Linux 0.167.1.
-- **CLI input and startup cleanup:** [comma-named image paths (#60587)](https://github.com/openai/codex/issues/60587#issuecomment-6784707188): confirmed an existing PNG was omitted while Codex exited 0; [Git temporary directories (#60615)](https://github.com/openai/codex/issues/60615#issuecomment-6785215617): confirmed one survived SIGTERM and a successful restart. Both used network-disabled synthetic Linux controls.
-- **Review and marketplace configuration:** [branch/tag review base (#60919)](https://github.com/openai/codex/issues/60919#issuecomment-6811094704): `--base main` selected a same-named tag; [inline marketplace entries (#60940)](https://github.com/openai/codex/issues/60940#issuecomment-6811088519): adding one marketplace removed another configuration entry. Both were reproduced on official Linux 0.167.1 with synthetic controls, and private candidate fixes were tested locally. No security impact was demonstrated.
-- **CLI configuration:** [local marketplace `#` paths (#60896)](https://github.com/openai/codex/issues/60896#issuecomment-6811318196): an explicit local path registered its sibling; [MCP same-name re-add (#60927)](https://github.com/openai/codex/issues/60927#issuecomment-6811437468): a repeat add removed `enabled = false` and two timeouts. Both reproduced on official Linux 0.167.1 with isolated synthetic configuration; a private candidate fix was tested for #60896 only. No security impact was demonstrated.
-- **File-search API reliability:** [Unicode highlight offsets (#60588)](https://github.com/openai/codex/issues/60588#issuecomment-6785662704): incorrect indices after combining marks and ZWJ emoji; [overlapping-root duplicates (#60591)](https://github.com/openai/codex/issues/60591#issuecomment-6785874541): 50 result rows held only 25 distinct files and omitted five valid matches. Both used synthetic files with official Linux 0.167.1 app-server; GUI rendering and session-based search were not tested.
-- **Thread search:** [Greek final sigma occurrences (#60589)](https://github.com/openai/codex/issues/60589#issuecomment-6787044063): reproduced an exact-substring miss through the official Linux 0.167.1 app-server with synthetic text and tested a private candidate fix locally.
-- **Additional CLI/MCP reliability checks:** [oversized MCP replies (#60383)](https://github.com/openai/codex/issues/60383#issuecomment-6756989945), [headless elicitation reporting (#60400)](https://github.com/openai/codex/issues/60400#issuecomment-6766198171), and [installer PATH quoting (#60494)](https://github.com/openai/codex/issues/60494#issuecomment-6757620856), each reproduced with synthetic local controls and stated limits.
-
-- **TUI math design:** [underbrace annotations (#61792)](https://github.com/openai/codex/issues/61792#issuecomment-6936878768): a focused offline renderer test confirmed the missing display path in a local checkout; I proposed a bounded terminal layout. Released TUI behavior and a fix remain untested.
-
-**Maintainer status (checked November 17, 2026):** These are GitHub issue states, not confirmation that a fix shipped.
-
-| Issue | What the research covered | Status |
-| --- | --- | --- |
-| [#60494](https://github.com/openai/codex/issues/60494) | A literal `$` in the install directory broke the generated shell-profile PATH. | Closed, `completed`; maintainer said an upcoming release would address it. |
-| [#60589](https://github.com/openai/codex/issues/60589) | Thread occurrence search missed a Greek final-sigma substring. | Closed, `completed`; maintainer said an upcoming release would address it. |
-| [#60591](https://github.com/openai/codex/issues/60591) | Overlapping file-search roots produced duplicate results and displaced valid matches. | Closed, `completed`. |
-| [#60615](https://github.com/openai/codex/issues/60615) | Terminating app-server during startup left temporary Git directories behind. | Closed, `completed`. |
-| [#60529](https://github.com/openai/codex/issues/60529) | Cold descending thread pagination skipped synthetic rollouts sharing a file timestamp. | **Current status unknown:** our November 12 check recorded `closed/completed`, but the issue now returns 404, so I cannot verify its present state or why it is unavailable. |
-| [#61271](https://github.com/openai/codex/issues/61271) | A failed `codex exec -o` run left an empty output file. | Closed, `not_planned`; a maintainer said early file binding is intentional. |
-
-I document what each test proves and route validated security vulnerabilities through [OpenAI's private Bugcrowd program](https://bugcrowd.com/engagements/openai).
-
-**Lifecycle exercises:** [Setup declarations](https://github.com/TheOutlandsDev/outlands-public-tools/blob/toolkit-v0.6.0/workshops/environment-setup.md) · [Import and document validation](https://github.com/TheOutlandsDev/outlands-public-tools/blob/toolkit-v0.6.0/workshops/README.md) · [Update planning](https://github.com/TheOutlandsDev/outlands-public-tools/blob/toolkit-v0.6.0/workshops/release-update.md). Invented inputs, observed checks and explicit limits; no real setup or target update is performed.
-
-<!-- START-HERE:BEGIN -->
-## Choose a tool for your task
-
-Start with one focused download and its fictional exercise. Windows downloads marked Python included or Node included supply that runtime. Source ZIPs need the runtime documented in their guide.
-
-| Your task | Start with | Follow the exercise |
-| --- | --- | --- |
-| Manufacturing and reporting | [Workfloor for Windows](https://github.com/TheOutlandsDev/workfloor/releases/download/windows-v0.4.1-1/workfloor-0.4.1-windows-x64.zip) / [Cross-platform source ZIP](https://github.com/TheOutlandsDev/workfloor/releases/download/v0.4.1/workfloor-0.4.1.zip) / [Source setup guide](https://github.com/TheOutlandsDev/workfloor/blob/v0.4.1/README.md#start-here) | [Requirements, expected result and limits](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/START-HERE.md#manufacturing) |
-| Build a local website | [Local Site Builder for Windows](https://github.com/TheOutlandsDev/outlands-public-tools/releases/download/local-site-builder-windows-v1.0.2-2/local-site-builder-1.0.2-windows-x64.zip) / [Cross-platform source ZIP](https://github.com/TheOutlandsDev/outlands-public-tools/releases/download/local-site-builder-v1.0.2/local-site-builder-1.0.2.zip) / [Source setup guide](https://github.com/TheOutlandsDev/outlands-public-tools/blob/local-site-builder-v1.0.2/tools/local-site-builder/START-HERE.md) | [Requirements, expected result and limits](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/START-HERE.md#local-website) |
-| Inspect and validate code | [Developer Workspace for Windows](https://github.com/TheOutlandsDev/outlands-public-tools/releases/download/developer-workspace-windows-v0.1.1-1/developer-workspace-0.1.1-windows-x64.zip) / [Cross-platform source ZIP](https://github.com/TheOutlandsDev/outlands-public-tools/releases/download/developer-workspace-v0.1.1/developer-workspace-0.1.1.zip) / [Source setup guide](https://github.com/TheOutlandsDev/outlands-public-tools/blob/developer-workspace-v0.1.1/downloads/workbenches/developer-workspace/START-HERE.md) | [Requirements, expected result and limits](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/START-HERE.md#source-review) |
-
-[Read the complete starting guide](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/START-HERE.md) · [Portfolio guide](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#start-here)
-<!-- START-HERE:END -->
-
-## Selected applications
-
-**[Browse every tool and the methodology](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#tools)** · [Download the complete toolkit or a tool family](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/toolkit-v0.6.0) · [Worked methodology examples](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/methodology/worked-examples)
-
-Toolkit 0.6.0 contains a fixed public snapshot of 79 components: 62 tools and 17 application systems, with source, fictional examples, requirements, notices and exact package manifests. The portfolio directory also links the separate public projects. Each tool family includes a [five-minute fictional workshop](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/workshops); the [shared catalog](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/catalog/generated/INDEX.md) links requirements, examples, validation and package state.
-
-| Application | Problem and design | Try it or inspect the evidence |
-| --- | --- | --- |
-| **[Workfloor](https://github.com/TheOutlandsDev/workfloor)** | Original synthetic manufacturing and SQL workbench: CSV preview, transactional imports, delayed reports and preserved SQLite snapshots. | [Explore sample reports](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/workfloor/) · [Windows portable: Python included](https://github.com/TheOutlandsDev/workfloor/releases/tag/windows-v0.4.1-1) · [Source ZIP](https://github.com/TheOutlandsDev/workfloor/releases/tag/v0.4.1) |
-| **[Local Site Builder](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder)** | Maintain a small website locally. SQLite stores separate drafts and published content; backups are verified before restoring into a new directory. | [Download v1.0.2](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/local-site-builder-v1.0.2) · [60-second tour](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#local-site-builder-walkthrough) · [Setup](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder#start-here) |
-| **[Code Atlas](https://github.com/TheOutlandsDev/code-atlas)** | Navigate selected project folders with a visual map and read-only source browsing. Python scanning and a JavaScript VS Code extension keep projects in their existing locations. | [Fictional browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/code-atlas/) · [Linux preview setup](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/setup-r2.md) · [Native results](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/native-acceptance.md) |
-
-For a deeper SQL example, [download SQL Report Workbench for Windows with Python included](https://github.com/TheOutlandsDev/outlands-public-tools/releases/tag/sql-report-workbench-windows-v0.1.1-1). Extract and double-click SQL Report Demo.cmd to reproduce 8/11 totals and 5/11 with filtering. [Setup, private storage and recovery limits](https://github.com/TheOutlandsDev/outlands-public-tools/blob/sql-report-workbench-windows-v0.1.1-1/downloads/windows/sql-report-workbench/START-HERE.txt).
-
-Also explore the [Resource Monitor fictional browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/resource-monitor/) and the full [Public Tools collection](https://github.com/TheOutlandsDev/outlands-public-tools).
-
-### Local Site Builder: my contribution
-
-I designed the application: its requirements, interface and workflows, SQLite storage, draft/publish behavior, and backup/restore approach. I also handled integration and debugging, with AI assistance during implementation.
-
-One consequential decision was keeping draft and published content separate so an unfinished edit stays private. Recovery restores verified backup contents into a fresh directory and refuses an existing destination. The tradeoff is that database changes and generated HTML are not one atomic transaction; a disk failure can leave publication incomplete and require a retry. The [validation notes](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/tools/local-site-builder/docs/VALIDATION.md) record the platform-specific checks and remaining limits.
-
-### Reading the evidence
-
-These are personal projects with public source and explicitly labeled demonstration data.
-
-- **Workfloor v0.4.1:** the [portable Windows package](https://github.com/TheOutlandsDev/workfloor/blob/windows-v0.4.1-1/docs/PORTABLE-WINDOWS.md) adds an isolated bundled runtime and an extract-and-launch workflow. Its hosted browser/process checks do not establish a manual Python-free-PC test.  [Windows/Ubuntu Python 3.12/3.13 checks](https://github.com/TheOutlandsDev/workfloor/actions/runs/40723210120) cover CLI/HTTP, upgrades and recovery. [Windows browser acceptance](https://github.com/TheOutlandsDev/workfloor/actions/runs/40723210163) checks the interface; [the current captioned tour](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#workfloor-v04-walkthrough) shows import history, a real process restart and a restored database with the same receipt. macOS remains unqualified.
-- **Local Site Builder 1.0.2:** the [focused download guide and provenance](https://github.com/TheOutlandsDev/outlands-public-tools/blob/local-site-builder-v1.0.2/tools/local-site-builder/docs/PROVENANCE.md) describe fresh-ZIP validation on Windows and Ubuntu. Checks cover private drafts, explicit local publish, stopped backup, tamper/existing-destination refusal and reopening published/private content after restore. This remains a single-user local application.
-- **Code Atlas:** the published VSIX passed 38 first-launch, 39 restart and 12 Restricted Mode control assertions in Linux VS Code 1.143.0. [Native screenshots, results and reproduction](https://github.com/TheOutlandsDev/code-atlas/blob/main/docs/native-acceptance.md) show actual scanning, read-only file boundaries and restart persistence. Manual desktop search, filter and keyboard acceptance remain pending. The browser demo uses a separate fictional catalog.
-- **Resource Monitor:** a Windows fictional-demo first run is recorded. Its browser adaptation does not establish live machine sampling.
-
-Platform and recovery limits remain in each project's documentation.
-
-The [Public Tools collection](https://github.com/TheOutlandsDev/outlands-public-tools) contains the application catalog. [Raid Control](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/#raid-control) is a separate private-host dashboard case study with a sanitized idle-state capture and explicit validation limits.
-
-## Games & modding
-
-| Project | Focus | Current boundary |
-| --- | --- | --- |
-| **[Outlands SPT](https://github.com/TheOutlandsDev/outlands-spt-modpack)** | Matching Client/SelfHost setup, updater and headless diagnostics. | Read the current release; fresh Windows and shared two-player acceptance remain pending. |
-| **[Outlands BO2](https://github.com/TheOutlandsDev/outlands-bo2-mod)** | Private multiplayer, native bots, earned progression and optional local Ollama chat. | Platform-specific validation is documented; Windows progression after relaunch remains pending. |
-| **[GAMMA Clear Sky Warfare](https://github.com/TheOutlandsDev/gamma-clearsky-warfare)** | Campaign presets, original addons and an experimental host/join launcher. | Private solo baseline checked; independent installation and two-PC co-op remain unverified. |
-| **[IW4x Bot Warfare Extras](https://github.com/TheOutlandsDev/iw4x-bot-warfare-extras)** | Original extensions, presets, learning tools and a command guide. | Offline source checks; live gameplay remains unverified. |
-| **[State of Decay 2 QOL](https://github.com/TheOutlandsDev/outlands-state-of-decay-2-qol)** | First-person, storage, recruitment and influence setup recipes. | Experimental source tools; obtain dependencies from their authors. |
-
-## Infrastructure & research
-
-- **[Private Workspace Blueprint](https://github.com/TheOutlandsDev/outlands-private-workspace-blueprint)** — a guided Homepage, Docker and Tailscale workspace with original theme examples and access-check walkthroughs.
-- **[OUTLANDS Protocol](https://github.com/TheOutlandsDev/outlands-protocol)** — Rust protocol research covering canonical encoding, state transitions, consensus and bounded P2P. Research source; no deployed network or production wallet is claimed.
-
-## How the projects connect
-
-**Public Tools** is the maintained home for the [Local Site Builder](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/local-site-builder) and [Portfolio Builder](https://github.com/TheOutlandsDev/outlands-public-tools/tree/main/tools/portfolio-builder). Their earlier standalone repositories remain available as history. **Game Tools** collects reusable utilities; the individual game repositories carry their own setup and validation notes. The [project map](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/PROJECT-MAP.md) connects all public repositories.
-
-## Questions, ideas or contributions
-
-Open an issue in the relevant project. Setup questions, reproducible bugs, documentation fixes and ideas are welcome—you do not need to write code to help. Include your version, what you tried and what you expected, using a minimal example.
+[Browse the project map](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/PROJECT-MAP.md) for relationships between repositories. For a setup question, bug, or idea, open an issue in the relevant project with the version and a small example.
 
 <sub>Original work is developed with AI assistance. Each repository documents its own license, upstream credits and validation scope.</sub>
-
