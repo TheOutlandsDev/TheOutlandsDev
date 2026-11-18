@@ -34,6 +34,8 @@ I independently investigate Codex reliability and security behavior using source
 
 - **TUI prompt rendering:** [shell-prompt tildes (#62296)](https://github.com/openai/codex/issues/62296#issuecomment-6992608280): reproduced the typed-message styling bug in a pinned current-main component test. A private candidate passed synthetic transcript, mixed Markdown, link, and copy controls; I did not independently validate the released Linux TUI.
 
+- **Apply-patch preview parity:** [repeated-CR line endings (#62327)](https://github.com/openai/codex/issues/62327#issuecomment-6994807913): reproduced the reported parser-level mismatch in an isolated source copy and tested a private single-normalization candidate (68 unit, 28 existing integration, and seven new integration tests passed). The live TUI preview, released binary, and full downstream runtime remain unverified.
+
 - **TUI math design:** [underbrace annotations (#61792)](https://github.com/openai/codex/issues/61792#issuecomment-6936878768): a focused offline renderer test confirmed the missing display path in a local checkout; I proposed a bounded terminal layout. Released TUI behavior and a fix remain untested.
 
 **Maintainer issue status recorded November 17, 2026.** Release status is tracked separately.
