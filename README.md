@@ -19,7 +19,7 @@ I investigate Codex reliability through source review and isolated tests. I aim 
 | Selected work | What I investigated | Public evidence |
 | --- | --- | --- |
 | **Codex Action contribution** | Submitted an opt-in run manifest for review; the fork's four Linux CI jobs passed. | [PR #194](https://github.com/openai/codex-action/pull/194) |
-| **Codex Security reviews** | Reproduced a custom-tool streaming failure; flagged a possible Deep Scan finish/refusal state mismatch using a synthetic Workbench check. | [PR #2707 review](https://github.com/openai/codex-security/pull/2707#issuecomment-6968962697) · [PR #2710 review](https://github.com/openai/codex-security/pull/2710#issuecomment-6969692290) |
+| **Codex Security reviews** | Reproduced a custom-tool streaming failure and a Deep Scan finish/refusal state mismatch. The PR author confirmed and patched both; focused synthetic checks passed against the updated PR files. Both PRs remain open. | [PR #2707 review](https://github.com/openai/codex-security/pull/2707#issuecomment-6968962697) · [PR #2710 review](https://github.com/openai/codex-security/pull/2710#issuecomment-6969692290) |
 | **Plugin refresh latency** | Measured Git-backed plugin refresh delays and compared a local Linux candidate with upstream behavior. | [Issue #58885](https://github.com/openai/codex/issues/58885) |
 | **File search accuracy** | Checked how overlapping roots affected duplicate search results and whether valid matches were kept. | [Issue #60591](https://github.com/openai/codex/issues/60591) |
 | **Thread search** | Investigated a Unicode substring search miss and tested a local candidate correction. | [Issue #60589](https://github.com/openai/codex/issues/60589) |
