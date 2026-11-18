@@ -4,6 +4,12 @@
 
 This record keeps the detailed findings and the dated maintainer observations behind the profile highlights. The linked issues contain the public evidence and subsequent discussion.
 
+## OpenAI repository contributions
+
+- [Codex Action run manifest (PR #194)](https://github.com/openai/codex-action/pull/194): submitted an optional, machine-readable manifest for a Codex Action run. The PR is open for review. The fork's four Linux CI jobs passed; the candidate has not been tested in a GitHub-hosted composite Action job or on macOS or Windows.
+- [Codex Security compatibility proxy review (PR #2707)](https://github.com/openai/codex-security/pull/2707#issuecomment-6968962697): reproduced a custom-tool streaming failure in the proposed patch with a synthetic local Responses endpoint and shared the specific event sequence. The PR remains open; I did not test a live provider or a released build.
+- [Codex Action usage telemetry contract (#178)](https://github.com/openai/codex-action/issues/178#issuecomment-6968258571): asked whether a validated usage-only output would meet the issue's requirements before proposing code that could expose raw JSONL content. This is a design question; no patch or security finding was submitted.
+
 ## Investigations
 
 I independently investigate Codex reliability and security behavior using source review and isolated, synthetic tests. My public issue work includes:
