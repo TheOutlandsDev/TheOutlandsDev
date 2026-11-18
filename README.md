@@ -46,7 +46,16 @@ I independently investigate Codex reliability and security behavior using source
 
 - **TUI math design:** [underbrace annotations (#61792)](https://github.com/openai/codex/issues/61792#issuecomment-6936878768): a focused offline renderer test confirmed the missing display path in a local checkout; I proposed a bounded terminal layout. Released TUI behavior and a fix remain untested.
 
-**Maintainer status (checked November 17, 2026):** [#60494](https://github.com/openai/codex/issues/60494), [#60589](https://github.com/openai/codex/issues/60589), [#60591](https://github.com/openai/codex/issues/60591), and [#60615](https://github.com/openai/codex/issues/60615) are closed with GitHub's `completed` state reason. OpenAI maintainers said #60494 and #60589 would be addressed in an upcoming release; I have not verified shipped fixes. The earlier [#60529](https://github.com/openai/codex/issues/60529) link returns 404, so I cannot verify its current status. A separate [#61271](https://github.com/openai/codex/issues/61271) investigation I helped reproduce was closed as `not planned` after a maintainer clarified that early output-file binding is intentional.
+**Maintainer status (checked November 17, 2026):** These are GitHub issue states, not confirmation that a fix shipped.
+
+| Issue | What the research covered | Status |
+| --- | --- | --- |
+| [#60494](https://github.com/openai/codex/issues/60494) | A literal `$` in the install directory broke the generated shell-profile PATH. | Closed, `completed`; maintainer said an upcoming release would address it. |
+| [#60589](https://github.com/openai/codex/issues/60589) | Thread occurrence search missed a Greek final-sigma substring. | Closed, `completed`; maintainer said an upcoming release would address it. |
+| [#60591](https://github.com/openai/codex/issues/60591) | Overlapping file-search roots produced duplicate results and displaced valid matches. | Closed, `completed`. |
+| [#60615](https://github.com/openai/codex/issues/60615) | Terminating app-server during startup left temporary Git directories behind. | Closed, `completed`. |
+| [#60529](https://github.com/openai/codex/issues/60529) | Cold descending thread pagination skipped synthetic rollouts sharing a file timestamp. | **Current status unknown:** our November 12 check recorded `closed/completed`, but the issue now returns 404, so I cannot verify its present state or why it is unavailable. |
+| [#61271](https://github.com/openai/codex/issues/61271) | A failed `codex exec -o` run left an empty output file. | Closed, `not_planned`; a maintainer said early file binding is intentional. |
 
 I document what each test proves and route validated security vulnerabilities through [OpenAI's private Bugcrowd program](https://bugcrowd.com/engagements/openai).
 
