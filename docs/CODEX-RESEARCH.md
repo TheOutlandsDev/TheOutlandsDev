@@ -31,6 +31,8 @@ I independently investigate Codex reliability and security behavior using source
 - **Additional CLI/MCP reliability checks:** [oversized MCP replies (#60383)](https://github.com/openai/codex/issues/60383#issuecomment-6756989945), [headless elicitation reporting (#60400)](https://github.com/openai/codex/issues/60400#issuecomment-6766198171), and [installer PATH quoting (#60494)](https://github.com/openai/codex/issues/60494#issuecomment-6757620856), each reproduced with synthetic local controls and stated limits.
 - **Remote compaction diagnostics:** [proxy-dropped trigger context (#62177)](https://github.com/openai/codex/issues/62177#issuecomment-6981024676): an official Linux 0.168.0 synthetic relay reproduced the count-only failure; a private candidate added type-only context and a hint in focused Rust and app-server checks. This experimental-path diagnostic is not a bounty finding, and no live provider or Desktop run was tested.
 
+- **TUI prompt rendering:** [shell-prompt tildes (#62296)](https://github.com/openai/codex/issues/62296#issuecomment-6992608280): reproduced the typed-message styling bug in a pinned current-main component test. A private candidate passed synthetic transcript, mixed Markdown, link, and copy controls; I did not independently validate the released Linux TUI.
+
 - **TUI math design:** [underbrace annotations (#61792)](https://github.com/openai/codex/issues/61792#issuecomment-6936878768): a focused offline renderer test confirmed the missing display path in a local checkout; I proposed a bounded terminal layout. Released TUI behavior and a fix remain untested.
 
 **Maintainer issue status recorded November 17, 2026.** Release status is tracked separately.
