@@ -75,7 +75,7 @@ I build game systems, modding tools, and server recovery workflows. The project 
 
 | I want to… | Where to start |
 | --- | --- |
-| Browse reusable Python tools and complete local applications | [OUTLANDS Public Tools](https://github.com/TheOutlandsDev/outlands-public-tools) · [Complete tool catalog](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/catalog/generated/INDEX.md) |
+| Browse reusable Python tools and complete local applications | [Browse the live tool catalog](https://theoutlandsdev.github.io/outlands-public-tools/) · [OUTLANDS Public Tools](https://github.com/TheOutlandsDev/outlands-public-tools) · [Complete tool catalog](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/catalog/generated/INDEX.md) |
 | Validate source, compare revisions, or run a reporting exercise | [Developer Workspace and SQL Report Workbench guide](https://github.com/TheOutlandsDev/outlands-public-tools/blob/main/docs/START-HERE.md) |
 | See a local dashboard with invented CPU, memory, and network data | [Resource Monitor browser demo](https://connor-oshea-outlands.thatrobotguy.chatgpt.site/demos/resource-monitor/) |
 | Prepare a bounded source export with file selection and hash evidence | [Source Export Gate](https://github.com/TheOutlandsDev/source-export-gate) |
